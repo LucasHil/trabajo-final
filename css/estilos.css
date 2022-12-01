@@ -1,0 +1,58 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+}
+
+
+.encabezado{
+    border-bottom: 0.5rem transparent solid;
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    overflow: hidden;
+}
+
+.encabezadoNav{
+    width: 100%;
+}
+
+.encabezado a img{
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.encabezado img{
+    width: 150px;
+    height: 116px;
+}
+
+.encabezadoNav ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.encabezadoNav ul li a{
+    color: rgb(196, 12, 36);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+.encabezadoNav ul li{
+    padding: 0rem 5rem 0rem 5rem;
+    
+}
+
+
+main{
+    background-color: aqua;
+}
